@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="DoctorPatientPrescriptionService2">
+		<class>com.example.demo.entities.Docgivesdiag</class>
+		<class>com.example.demo.entities.DocgivesdiagPK</class>
+		<class>com.example.demo.entities.Doctor</class>
+		<class>com.example.demo.entities.DoctorPK</class>
+		<class>com.example.demo.entities.Nurse</class>
+		<class>com.example.demo.entities.NursePK</class>
+		<class>com.example.demo.entities.Pathasdiag</class>
+		<class>com.example.demo.entities.PathasdiagPK</class>
+		<class>com.example.demo.entities.Patient</class>
+		<class>com.example.demo.entities.Prescription</class>
+		<class>com.example.demo.entities.Diagnosis</class>
+		<class>com.example.demo.entities.Ward</class>
+		<class>model.Person</class>
+		<class>Person</class>
+	</persistence-unit>
+</persistence>
